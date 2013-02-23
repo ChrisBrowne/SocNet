@@ -1,4 +1,5 @@
 module.exports = function (config, mongoose, nodemailer) {
+	'use strict';
 	var crypto = require('crypto');
 
 	var AccountSchema = new mongoose.Schema({

@@ -1,4 +1,5 @@
 define(['jquery', 'backbone', 'text!templates/index.html'], function($, Backbone, indexTemplate){
+	'use strict';
 	var indexView = Backbone.View.extend({
 		el: $('#content'),
 
@@ -7,5 +8,5 @@ define(['jquery', 'backbone', 'text!templates/index.html'], function($, Backbone
 		}
 	});
 
-	return new indexView();
+	return indexView;
 })

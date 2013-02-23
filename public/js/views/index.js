@@ -1,5 +1,5 @@
 define(['jquery', 'backbone', 'text!templates/index.html'], function($, Backbone, indexTemplate){
-	var indexView = backbone.View.extend({
+	var indexView = Backbone.View.extend({
 		el: $('#content'),
 
 		render: function(){
